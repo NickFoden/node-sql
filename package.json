@@ -1,0 +1,15 @@
+{
+  "name": "node-sql",
+  "version": "1.0.0",
+  "description": "Complete Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Foden",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
