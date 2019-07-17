@@ -33,8 +33,9 @@ module.exports = class Product {
     fs.readFile(p, (err, fileContent) => {
       if (err) {
         cb([]);
+      } else {
+        cb(JSON.parse(fileContent));
       }
-      cb(JSON.parse(fileContent));
     });
   }
 };
